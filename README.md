@@ -1,6 +1,6 @@
 # Calculator
 
-Check the [demo here]()
+Check the [demo here](https://calculator-adamblog.netlify.app/)
 
 App made for the challenge [App Ideas](https://github.com/florinpop17/app-ideas)
 
