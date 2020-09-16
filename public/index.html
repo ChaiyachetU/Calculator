@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <input type="text" class="calculator-display" value="0" disabled />
+      <div class="calculator-keys">
+        <button class="all-clear" data-action="all-clear">AC</button>
+        <button class="clear" data-action="clear">C</button>
+        <button class="operator" data-action="divide">&divide;</button>
+        <button class="operator" data-action="multiply">&times;</button>
+
+        <button class="number" value="7">7</button>
+        <button class="number" value="8">8</button>
+        <button class="number" value="9">9</button>
+        <button class="operator" data-action="subtract">-</button>
+
+        <button class="number" value="4">4</button>
+        <button class="number" value="5">5</button>
+        <button class="number" value="6">6</button>
+        <button class="operator" data-action="add">+</button>
+
+        <button class="number" value="1">1</button>
+        <button class="number" value="2">2</button>
+        <button class="number" value="3">3</button>
+        <button class="equal-sign" data-action="calculate">=</button>
+
+        <button class="number zero" value="0">0</button>
+        <button class="decimal" data-action="decimal">.</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
